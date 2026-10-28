@@ -30,7 +30,7 @@ download.addEventListener('click',()=>{
   canvas.toBlob(blob=>{
     if(!blob){status.textContent='PNG 저장에 실패했습니다. 다시 시도해 주세요.';download.disabled=false;return;}
     const url=URL.createObjectURL(blob),a=document.createElement('a');
-    a.href=url;a.download='red-seal.png';a.click();setTimeout(()=>URL.revokeObjectURL(url),30000);
+    a.href=url;a.download='red-seal.png';a.setAttribute('data-google-vignette','false');a.setAttribute('data-google-interstitial','false');document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),30000);
     status.textContent='투명 PNG를 만들었습니다. 브라우저 다운로드 목록을 확인하세요.';download.disabled=false;
   },'image/png');
 });
