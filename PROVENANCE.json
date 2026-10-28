@@ -1,0 +1,26 @@
+[
+  {
+    "id": "myeongjo",
+    "name": "Nanum Myeongjo Bold",
+    "file": "NanumMyeongjo-Bold.ttf",
+    "license": "SIL Open Font License 1.1",
+    "license_file": "myeongjo-OFL.txt",
+    "source_url": "https://raw.githubusercontent.com/google/fonts/e7db6ca603fd4862010383ff17ffd6cc4ffac1c0/ofl/nanummyeongjo/NanumMyeongjo-Bold.ttf",
+    "license_url": "https://raw.githubusercontent.com/google/fonts/e7db6ca603fd4862010383ff17ffd6cc4ffac1c0/ofl/nanummyeongjo/OFL.txt",
+    "creator": "NHN Corporation / NAVER",
+    "modified": false,
+    "sha256": "bc9ed8e60d93fe6db054b8fb988481b625f2eef8cb2317ad0e9834681b8fe3f3"
+  },
+  {
+    "id": "brush",
+    "name": "Nanum Brush Script",
+    "file": "NanumBrushScript-Regular.ttf",
+    "license": "SIL Open Font License 1.1",
+    "license_file": "brush-OFL.txt",
+    "source_url": "https://raw.githubusercontent.com/google/fonts/e7db6ca603fd4862010383ff17ffd6cc4ffac1c0/ofl/nanumbrushscript/NanumBrushScript-Regular.ttf",
+    "license_url": "https://raw.githubusercontent.com/google/fonts/e7db6ca603fd4862010383ff17ffd6cc4ffac1c0/ofl/nanumbrushscript/OFL.txt",
+    "creator": "NHN Corporation / NAVER",
+    "modified": false,
+    "sha256": "27ceaf578c96f594cdf07fe0181b251790acbb746a164e45c1f6473f89911a31"
+  }
+]
